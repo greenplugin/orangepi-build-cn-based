@@ -89,7 +89,7 @@ DE along with all its specific apps, widgets and the kitchen sink.
 * Open the `packages` file, add the list of packages for `apt`.
 
 Then select it in the configuration menu, or pass the following
-variables to `./compile.sh` :
+variables to `./build.sh` :
 
 ```bash
 BUILD_DESKTOP="yes" RELEASE="focal" DESKTOP_ENVIRONMENT="superduperde" DESKTOP_ENVIRONMENT_CONFIG_NAME="config_full"

@@ -319,7 +319,7 @@ get_extension_hook_stracktrace() {
 		# skip extension infrastructure sources, these only pollute the trace and add no insight to users
 		[[ ${source} == */.tmp/extension_function_definition.sh ]] && continue
 		[[ ${source} == *lib/extensions.sh ]] && continue
-		[[ ${source} == */compile.sh ]] && continue
+		[[ ${source} == */build.sh ]] && continue
 		# relativize the source, otherwise too long to display
 		source="${source#"${SRC}/"}"
 		# remove 'lib/'. hope this is not too confusing.
